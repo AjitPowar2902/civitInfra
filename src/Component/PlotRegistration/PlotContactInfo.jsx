@@ -26,7 +26,7 @@ setCurrentStep(3);
         <div className="d-flex justify-content-between align-items-center" >
           <div>
             
-            <span style={{fontSize:'24px'}}>Plot/Unit Contact Information</span>&nbsp;&nbsp;&nbsp;
+            <span style={{fontSize:'25px'}}>Plot/Unit Contact Information</span>&nbsp;&nbsp;&nbsp;
             <span  style={{fontSize:'12px'}}>Time requires 3 mins</span>
           </div> <br />
 
