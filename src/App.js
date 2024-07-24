@@ -1,24 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import ReactDOM from "react-dom/client";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Dashboard from './Component/Dashboard';
+import ErrorPage from './Component/ErrorPage';
+import PageNotFound from './Component/PageNotFound';
+import Login from './Pages/Login';
+import PlotRegistration from "./Pages/PlotRegistration";
+ 
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+     
+    <Routes>
+    <Route path="/" element={<Login/>} />
+         <Route path="/Dashboard" element={<Dashboard/>} />
+         <Route path="/Help" element={<ErrorPage/>} />
+         <Route path="/plotregistration" element={<PlotRegistration/>}/>
+         <Route path="*" element={<PageNotFound />} />
+         
+    </Routes>
+    
+
+  </BrowserRouter>
   );
 }
 

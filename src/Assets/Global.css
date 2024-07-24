@@ -1,0 +1,92 @@
+.info-div
+{
+    /*marginTop:'5%'
+    height:'auto',background:'#00000026',borderRadius:'5%' */
+    margin-top: 5% !important;
+    height: auto;
+    background-color:#00000026!important ;
+    border-radius: 5% !important;
+}
+
+.review-title
+{
+    
+    text-align: center !important;
+    color: #002e95 !important;
+     
+}
+
+.cardHeader
+{
+
+    text-align: center !important;
+    color: #002e95 !important;
+    margin-top: 60px !important;
+}
+.form-label
+{
+    text-align: center !important;
+    color: #002e95 !important;
+}
+
+.button-container {
+    display: flex;
+  justify-content: center; /* Center items horizontally */
+  align-items: center; /* Center items vertically */
+  gap: 10px; /* Adjust the spacing between buttons */
+  height: 70%; /* Ensure the container takes full height if needed */
+  }
+  
+  .button-container button {
+    padding: 10px 40px;
+    border: 1px solid #000; /* Default border for both buttons */
+    font-size: 13px; /* Adjust text size */
+    cursor: pointer;
+  }
+  
+  .button-print {
+    background-color: #fff; /* White background for print button */
+    color: #000; /* Black text for print button */
+  }
+  
+  .button-submit {
+    background-color: #212733; /* Dark background for submit button */
+    color: #fff; /* White text for submit button */
+    border-color: #212733; /* Matching border color for submit button */
+  }
+  
+  .button-print:hover,
+  .button-submit:hover {
+    opacity: 0.8; /* Slight opacity change on hover */
+  }
+
+
+  .custom-label {
+    font-size: 11px; /* Change the font size */
+    color: #746262; /* Change the text color */
+    font-weight: bold; /* Make the text bold */
+    margin-left: 5px; /* Add some space between the checkbox and the label */
+    /* Add any other styles you need */
+  }
+  
+  .custom-textarea {
+    font-size: 16px; /* Change the font size */
+    color: #333; /* Change the text color */
+    background-color: #f9f9f9; /* Change the background color */
+    border: 1px solid #ccc; /* Change the border color */
+    border-radius: 4px; /* Add rounded corners */
+    padding: 10px; /* Add padding */
+    resize: vertical; /* Allow vertical resizing only */
+  }
+  
+  .headerradius
+  {
+    border-radius: 10px 10px 0px 0px;
+    background-color: #cbccda !important;
+  }
+
+  .formradius
+  {
+
+    border-radius: 0px 0px 10px 10px;
+  }

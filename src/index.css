@@ -1,13 +1,185 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+.banner{
+ background-repeat: no-repeat;
+height:560px;
+width: 100%;
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* html{
+    background: linear-gradient(to left, #c0ffe8, #155cd1 105%);
+   } */
+
+ /* #root{
+    background: linear-gradient(to left, #c0ffe8, #155cd1 105%);
+   } */
+
+
+.bannerBackground{
+    background: linear-gradient(to left, #c0ffe8, #155cd1 105%);
+    background-repeat: no-repeat;
+   width: auto;
+   }
+   .row {
+    margin: 0px !important;
+
 }
+.box-shadow{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+.bg-green{
+    background: linear-gradient(to left, #c0ffe8, #155cd1 105%);
+    
+    }
+
+    .form-control:focus {
+        box-shadow: 0 0 0 .25rem rgb(25 135 84 / 32%) !important;
+    }
+
+
+    .form-select:focus {
+        box-shadow: 0 0 0 .25rem rgb(25 135 84 / 32%) !important;
+    }
+
+   
+
+    .Approved
+    {   
+         box-shadow: 0px 2px 4px rgba(128, 128, 128, 0.14), 0px 3px 3px rgba(128, 128, 128, 0.12), 0px 1px 5px rgba(128, 128, 128, 0.2);
+        background: linear-gradient(110deg, #26a36b 0%, #30d39f 100%);
+    }
+    .Rejected
+    {
+        box-shadow: 0px 2px 4px rgba(128, 128, 128, 0.14), 0px 3px 3px rgba(128, 128, 128, 0.12), 0px 1px 5px rgba(128, 128, 128, 0.2);
+        background: linear-gradient(to left, #bd0000, #5a0000);
+    }
+
+    .Inprocess
+    {
+        box-shadow: 0px 2px 4px rgba(128, 128, 128, 0.14), 0px 3px 3px rgba(128, 128, 128, 0.12), 0px 1px 5px rgba(128, 128, 128, 0.2);
+       
+        background: linear-gradient(110deg, #4400cb  0%, #722bff 100%) !important;
+    }
+    .NotSubmited
+    {
+        box-shadow: 0px 2px 4px rgba(128, 128, 128, 0.14), 0px 3px 3px rgba(128, 128, 128, 0.12), 0px 1px 5px rgba(128, 128, 128, 0.2);
+        background:linear-gradient(to right, #6853a1, #ff4d98) !important;
+    }
+
+    .TotalFiles
+    {
+        box-shadow: 0px 2px 4px rgba(128, 128, 128, 0.14), 0px 3px 3px rgba(128, 128, 128, 0.12), 0px 1px 5px rgba(128, 128, 128, 0.2);
+        background:linear-gradient(110deg, #28ccef 0%, #009abd 100%) !important;
+    }
+
+    .Objected
+    {
+        box-shadow: 0px 2px 4px rgba(128, 128, 128, 0.14), 0px 3px 3px rgba(128, 128, 128, 0.12), 0px 1px 5px rgba(128, 128, 128, 0.2);
+        background: linear-gradient(to right, #ff8f25, #fdc32b) !important;
+    }
+     /* .card:hover {
+       -webkit-transform: translateY(-5px);
+        -ms-transform: translateY(-5px);
+        transform: translateY(-5px);
+        box-shadow: 0 22px 22px rgba(0, 0, 0, 0.22);
+        cursor: pointer;
+    } */
+    .page_404{ padding:40px 0; background:#fff; font-family: 'Arvo', serif;
+    }
+    
+    /*.page_404  img{ width:100%;}*/
+    
+    .four_zero_four_bg_404{
+     
+     /*background-image: url(../src/Images/404_Space.gif);*/
+        height: 370px;
+        background-position: center;
+        background-repeat: no-repeat;
+      
+     }
+     
+     
+     .four_zero_four_bg_404 h1{
+     font-size:80px;
+     }
+     
+      .four_zero_four_bg_404 h3{
+                 font-size:80px;
+                 }
+                 
+                 .link_404{			 
+        color: #fff!important;
+        padding: 10px 20px;
+        background: #39ac31;
+        margin: 20px 0;
+        display: inline-block;}
+        .contant_box_404{ margin-top:-10px;}
+    
+    
+      .page_404{ padding:40px 0; background:#fff; font-family: 'Arvo', serif;
+    }
+    
+    /*.page_404  img{ width:100%;}*/
+    
+    .four_zero_four_bg_404{
+     
+     /*background-image: url(../src/Images/404_Space.gif);*/
+        height: 370px;
+        background-position: center;
+        background-repeat: no-repeat;
+      
+     }
+     
+     
+     .four_zero_four_bg_404 h1{
+     font-size:80px;
+     }
+     
+      .four_zero_four_bg_404 h3{
+                 font-size:80px;
+                 }
+                 
+                 .link_404{			 
+        color: #fff!important;
+        padding: 10px 20px;
+        background: #39ac31;
+        margin: 20px 0;
+        display: inline-block;}
+        .contant_box_404{ margin-top:-10px;}
+    
+      /* Error Page */
+      .page_404{ padding:40px 0; background:#fff; font-family: 'Arvo', serif;
+      }
+      #watermark
+      {
+       position:fixed;
+       bottom:15px;
+       z-index:99;
+       color: rgb(173 173 173);
+       font-size: 16px;
+      }
+
+      .four_zero_four_bg_Error h1{
+        font-size:80px;
+        }
+        
+         .four_zero_four_bg_Error h3{
+              font-size:80px;
+              }
+              
+              .link_Error{			 
+         color: #fff!important;
+           padding: 10px 20px;
+           background: #39ac31;
+           margin: 20px 0;
+           display: inline-block;}
+         .contant_box_404{ margin-top:-10px;}
+
+         .four_zero_four_bg_Error{
+   
+            /*background-image: url(../src/Images/404_Space.gif);*/
+               height: 370px;
+               background-position: center;
+               background-repeat: no-repeat;
+             
+            }
